@@ -1,0 +1,229 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.top {
+    background: url('HWbck1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.top p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: silver;
+    color: #fff;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+#about p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+
+
+#dynamic-message {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px; 
+}
+
+
+#skills {
+    margin-bottom: 30px;
+}
+
+#skills h3 {
+    color: palevioletred;
+    margin-bottom: 15px;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-left: 5px solid silver;
+}
+
+#skills ul li:hover {
+    background: #f1f1f1;
+}
+
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    color: palevioletred;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.project a {
+    color: palevioletred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: silver;
+}
+
+.project-title {
+    cursor: pointer; /* Show pointer cursor on hover */
+    color: palevioletred; /* Change color to match your theme */
+    transition: color 0.3s;
+}
+
+.project-title:hover {
+    color: silver; /* Change color on hover */
+}
+
+
+
+.hobby {
+    margin-bottom: 30px;
+}
+
+.hobby h3 {
+    color: palevioletred;
+    margin-bottom: 10px;
+}
+
+.hobby p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sendbtn {
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.sendbtn:hover {
+    background-color: silver;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-family:  'Arial', sans-serif;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.social-links a:hover {
+    color: palevioletred;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .hobbies-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hobby {
+        flex: 1 1 100%;
+        max-width: 600px;
+    }
+
+    .skills-container{
+        flex-direction: column;
+    }
+
+    .skill-category {
+        flex: 1 1 100%;
+    }
+
+    .top h1 {
+        font-size: 2.5em;
+    }
+
+    .top p {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+        font-size: 1em;
+    }
+}
